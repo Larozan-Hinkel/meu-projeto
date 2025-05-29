@@ -36,7 +36,10 @@ function Home() {
           Máquinas e Equipamentos
         </Link>
         <Link to="/portfolio/layouts" style={styles.button}>
-          Layouts
+          Layouts Industriais
+        </Link>
+        <Link to="/portfolio/estruturas" style={styles.button}>
+          Estruturas Metálicas
         </Link>
       </div>
     </div>
@@ -114,7 +117,7 @@ function Layouts() {
       {/* 🔻 Bloco de texto descritivo */}
       <div style={styles.textoDescricao}>
         <p>
-          Nesta seção encontra-se exemplos de layouts industriais desenvolvidos para otimização de espaços, melhoria de processos, aumento da produtividade e asoectos de ergonomia e segurança. Cada projeto foi personalizado de acordo com a necessidade do cliente, considerando aspectos operacionais, logísticos, ergonômicos e de segurança.
+          Nesta seção encontra-se exemplos de layouts industriais desenvolvidos para otimização de espaços, melhoria de processos, aumento da produtividade e aspectos de ergonomia e segurança. Cada projeto foi personalizado de acordo com a necessidade do cliente, considerando aspectos operacionais, logísticos, ergonômicos e de segurança.
         </p>
       </div>
       {/* 🔺 Fim do texto */}
