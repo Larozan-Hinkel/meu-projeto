@@ -176,7 +176,7 @@ const styles = {
   },
   imagem: {
     width: '100%',
-    height: '180px',
+    height: '300px',
     objectFit: 'cover',
     borderRadius: '6px',
     marginBottom: '1rem',
