@@ -4,10 +4,17 @@ import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './index.css';
 
 // 🔗 Menu de navegação
-function Navbar() {
+  function Navbar() {
   return (
     <nav style={styles.nav}>
-      <h1 style={styles.logo}>Larozan</h1>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <img
+          src="/assets/logo/logolarozan1.png"
+          alt="Logo Larozan"
+          style={{ height: '40px', marginRight: '0.5rem' }}
+        />
+        <h1 style={styles.logo}>Larozan</h1>
+      </div>
       <div>
         <Link style={styles.link} to="/">Portfólio</Link>
         <Link style={styles.link} to="/sobre">Sobre</Link>
@@ -17,6 +24,8 @@ function Navbar() {
     </nav>
   );
 }
+
+
 
 // 🏠 Página Portfólio
 function Home() {
