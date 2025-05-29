@@ -18,12 +18,42 @@ function Navbar() {
   );
 }
 
-// 🏠 Página inicial
+// 🏠 Página Portfólio
 function Home() {
+  const projetos = [
+    {
+      imagem: require('./assets/portfolio/projeto1.jpg'),
+      titulo: 'Projeto 1',
+      descricao: 'Descrição breve do Projeto 1.',
+    },
+    {
+      imagem: require('./assets/portfolio/projeto2.jpg'),
+      titulo: 'Projeto 2',
+      descricao: 'Descrição breve do Projeto 2.',
+    },
+    {
+      imagem: require('./assets/portfolio/projeto3.jpg'),
+      titulo: 'Projeto 3',
+      descricao: 'Descrição breve do Projeto 3.',
+    },
+  ];
+
   return (
     <div style={styles.page}>
       <h2>Portfólio</h2>
-      <p>Seus projetos aparecerão aqui futuramente.</p>
+      <div style={styles.grid}>
+        {projetos.map((projeto, index) => (
+          <div key={index} style={styles.card}>
+            <img
+              src={projeto.imagem}
+              alt={projeto.titulo}
+              style={styles.imagem}
+            />
+            <h3>{projeto.titulo}</h3>
+            <p>{projeto.descricao}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

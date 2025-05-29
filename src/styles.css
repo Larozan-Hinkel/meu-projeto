@@ -120,3 +120,44 @@ footer.footer {
   color: #AEB4B9;
   font-weight: 600;
 }
+
+const styles = {
+  container: {
+    backgroundColor: '#1C2A35',
+    color: '#FFFFFF',
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  nav: {
+    backgroundColor: '#263746',
+    padding: '1rem 2rem',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  logo: {
+    color: '#FFFFFF',
+    margin: 0,
+    fontSize: '1.5rem',
+  },
+  link: {
+    color: '#AEB4B9',
+    margin: '0 1rem',
+    textDecoration: 'none',
+  },
+  page: {
+    flex: 1,
+    padding: '2rem',
+  },
+  content: {
+    flex: 1,
+  },
+  footer: {
+    backgroundColor: '#263746',
+    textAlign: 'center',
+    padding: '1rem',
+    color: '#AEB4B9',
+  },
+
+  
