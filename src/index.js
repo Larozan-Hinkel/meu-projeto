@@ -164,10 +164,18 @@ function Contato() {
 function Footer() {
   return (
     <footer style={styles.footer}>
-      <p>&copy; {new Date().getFullYear()} Larozan Hinkel • Todos os direitos reservados.</p>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
+        <img
+          src="/assets/logo/logolarozan1.png"
+          alt="Logo Larozan"
+          style={{ height: '30px' }}
+        />
+        <p>&copy; {new Date().getFullYear()} Larozan • Todos os direitos reservados.</p>
+      </div>
     </footer>
   );
 }
+
 
 // 🚀 App principal
 function App() {
