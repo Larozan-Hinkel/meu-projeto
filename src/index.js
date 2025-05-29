@@ -46,26 +46,26 @@ function Home() {
 // 📂 Máquinas e Equipamentos
 function Maquinas() {
   const projetos = [
-    { imagem: '/assets/portfolio/maquinas/projeto1.png', titulo: 'Projeto 1', descricao: 'Descrição do Projeto 1' },
-    { imagem: '/assets/portfolio/maquinas/projeto2.png', titulo: 'Projeto 2', descricao: 'Descrição do Projeto 2' },
-    { imagem: '/assets/portfolio/maquinas/projeto3.png', titulo: 'Projeto 3', descricao: 'Descrição do Projeto 3' },
-    { imagem: '/assets/portfolio/maquinas/projeto4.png', titulo: 'Projeto 4', descricao: 'Descrição do Projeto 4' },
-    { imagem: '/assets/portfolio/maquinas/projeto5.png', titulo: 'Projeto 5', descricao: 'Descrição do Projeto 5' },
-    { imagem: '/assets/portfolio/maquinas/projeto6.png', titulo: 'Projeto 6', descricao: 'Descrição do Projeto 6' },
-    { imagem: '/assets/portfolio/maquinas/projeto7.png', titulo: 'Projeto 7', descricao: 'Descrição do Projeto 7' },
-    { imagem: '/assets/portfolio/maquinas/projeto8.png', titulo: 'Projeto 8', descricao: 'Descrição do Projeto 8' },
-    { imagem: '/assets/portfolio/maquinas/projeto9.png', titulo: 'Projeto 9', descricao: 'Descrição do Projeto 9' },
-    { imagem: '/assets/portfolio/maquinas/projeto10.png', titulo: 'Projeto 10', descricao: 'Descrição do Projeto 10' },
-    { imagem: '/assets/portfolio/maquinas/projeto11.png', titulo: 'Projeto 11', descricao: 'Descrição do Projeto 11' },
-    { imagem: '/assets/portfolio/maquinas/projeto12.png', titulo: 'Projeto 12', descricao: 'Descrição do Projeto 12' },
-    { imagem: '/assets/portfolio/maquinas/projeto13.png', titulo: 'Projeto 13', descricao: 'Descrição do Projeto 13' },
-    { imagem: '/assets/portfolio/maquinas/projeto14.png', titulo: 'Projeto 14', descricao: 'Descrição do Projeto 14' },
-    { imagem: '/assets/portfolio/maquinas/projeto15.png', titulo: 'Projeto 15', descricao: 'Descrição do Projeto 15' },
-    { imagem: '/assets/portfolio/maquinas/projeto16.jpg', titulo: 'Projeto 16', descricao: 'Descrição do Projeto 16' },
-    { imagem: '/assets/portfolio/maquinas/projeto17.jpg', titulo: 'Projeto 17', descricao: 'Descrição do Projeto 17' },
-    { imagem: '/assets/portfolio/maquinas/projeto18.png', titulo: 'Projeto 18', descricao: 'Descrição do Projeto 18' },
-    { imagem: '/assets/portfolio/maquinas/projeto19.jpg', titulo: 'Projeto 19', descricao: 'Descrição do Projeto 19' },
-    { imagem: '/assets/portfolio/maquinas/projeto20.png', titulo: 'Projeto 20', descricao: 'Descrição do Projeto 20' },
+    { imagem: '/assets/portfolio/maquinas/projeto1.png' },
+    { imagem: '/assets/portfolio/maquinas/projeto2.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto3.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto4.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto5.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto6.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto7.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto8.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto9.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto10.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto11.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto12.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto13.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto14.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto15.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto16.jpg'},
+    { imagem: '/assets/portfolio/maquinas/projeto17.jpg'},
+    { imagem: '/assets/portfolio/maquinas/projeto18.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto19.jpg'},
+    { imagem: '/assets/portfolio/maquinas/projeto20.png'},
   ];
 
   return (
@@ -89,16 +89,9 @@ function Maquinas() {
 // 📐 Layouts
 function Layouts() {
   const projetos = [
-    {
-      imagem: '/assets/portfolio/layout1.png',
-      titulo: 'Layout 1',
-      descricao: 'Descrição do Layout 1.',
-    },
-    {
-      imagem: '/assets/portfolio/layout2.png',
-      titulo: 'Layout 2',
-      descricao: 'Descrição do Layout 2.',
-    },
+    {imagem: '/assets/portfolio/layouts/layout1.png'},
+    {imagem: '/assets/portfolio/layouts/layout2.png'},
+    {imagem: '/assets/portfolio/layouts/layout3.png'},
   ];
 
   return (
