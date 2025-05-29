@@ -110,6 +110,12 @@ function Layouts() {
   return (
     <div style={styles.page}>
       <h2>Layouts</h2>
+      {/* 🔻 Insira este bloco de texto aqui */}
+      <p style={{ maxWidth: '800px', marginBottom: '2rem' }}>
+        Nesta seção encontra-se exemplos de layouts industriais desenvolvidos para otimização de espaços, melhoria de processos, aumento da produtividade e asoectos de ergonomia e segurança. 
+        Cada projeto foi personalizado de acordo com a necessidade do cliente, considerando aspectos operacionais, logísticos, ergonômicos e de segurança.
+      </p>
+      {/* 🔺 Fim do bloco de texto */}
       <div style={styles.grid}>
         {projetos.map((projeto, index) => (
           <div key={index} style={styles.card}>
@@ -130,23 +136,23 @@ function Sobre() {
   const certificados = [
     {
       imagem: '/assets/certificados/certificado1.png',
-      titulo: 'Engenharia Mecânica',
-      descricao: 'Diploma de conclusão do curso de Engenharia Mecânica.',
+      titulo: 'Engenharia Mecatrônica',
+      descricao: 'Diploma de conclusão do curso de Graduação Engenharia Mecatrônica.',
     },
     {
       imagem: '/assets/certificados/certificado2.png',
       titulo: 'Engenharia de Segurança do Trabalho',
-      descricao: 'Diploma de conclusão do curso de Engenharia de Segurança do Trabalho.',
+      descricao: 'Diploma de conclusão do curso de Pós-Graduação Engenharia de Segurança do Trabalho.',
     },
     {
       imagem: '/assets/certificados/certificado3.png',
       titulo: 'NR12',
-      descricao: 'Capacitação em Análise de Riscos e Adequação de Máquinas conforme NR12.',
+      descricao: 'Curso de Especialização - Capacitação em Análise de Riscos e Adequação de Máquinas conforme NR12.',
     },
     {
       imagem: '/assets/certificados/certificado4.png',
-      titulo: 'AutoCAD e SolidWorks',
-      descricao: 'Certificado de proficiência em ferramentas de desenho técnico e modelagem 3D.',
+      titulo: 'Engenharia Mecânica',
+      descricao: 'Diploma de conclusão do curso de Pós-Graduação Engenharia Mecânica Plena.',
     },
     // ➕ Adicione mais certificados conforme desejar
   ];
