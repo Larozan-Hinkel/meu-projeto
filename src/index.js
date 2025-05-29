@@ -22,17 +22,17 @@ function Navbar() {
 function Home() {
   const projetos = [
     {
-      imagem: '/assets/portfolio/projeto1.pnp',
+      imagem: '/assets/portfolio/projeto1.png',
       titulo: 'Projeto 1',
       descricao: 'Descrição breve do Projeto 1.',
     },
     {
-      imagem: '/assets/portfolio/projeto2.pnp',
+      imagem: '/assets/portfolio/projeto2.png',
       titulo: 'Projeto 2',
       descricao: 'Descrição breve do Projeto 2.',
     },
     {
-      imagem: '/assets/portfolio/projeto3.pnp',
+      imagem: '/assets/portfolio/projeto3.png',
       titulo: 'Projeto 3',
       descricao: 'Descrição breve do Projeto 3.',
     },
