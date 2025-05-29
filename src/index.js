@@ -190,7 +190,7 @@ const styles = {
     textAlign: 'center',
   },
   imagem: {
-    width: '90%',
+    width: '100%',
     height: '300px',
     objectFit: 'cover',
     borderRadius: '6px',
