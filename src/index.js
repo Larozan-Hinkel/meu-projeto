@@ -88,18 +88,21 @@ function Home() {
     <div style={styles.page}>
       <h2>Portfólio</h2>
       <div style={styles.grid}>
-        {projetos.map((projeto, index) => (
-          <div key={index} style={styles.card}>
-            <img
-              src={projeto.imagem}
-              alt={projeto.titulo}
-              style={styles.imagem}
-            />
-            <h3>{projeto.titulo}</h3>
-            <p>{projeto.descricao}</p>
-          </div>
-        ))}
-      </div>
+  {projetos.map((projeto, index) => (
+    <div key={index} style={styles.card}>
+      <a href={projeto.imagem} target="_blank" rel="noopener noreferrer">
+        <img
+          src={projeto.imagem}
+          alt={projeto.titulo}
+          style={styles.imagem}
+        />
+      </a>
+      <h3>{projeto.titulo}</h3>
+      <p>{projeto.descricao}</p>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 }
