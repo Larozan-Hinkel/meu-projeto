@@ -22,17 +22,17 @@ function Navbar() {
 function Home() {
   const projetos = [
     {
-      imagem: require('./assets/portfolio/projeto1.jpg'),
+      imagem: '/assets/portfolio/projeto1.jpg',
       titulo: 'Projeto 1',
       descricao: 'Descrição breve do Projeto 1.',
     },
     {
-      imagem: require('./assets/portfolio/projeto2.jpg'),
+      imagem: '/assets/portfolio/projeto2.jpg',
       titulo: 'Projeto 2',
       descricao: 'Descrição breve do Projeto 2.',
     },
     {
-      imagem: require('./assets/portfolio/projeto3.jpg'),
+      imagem: '/assets/portfolio/projeto3.jpg',
       titulo: 'Projeto 3',
       descricao: 'Descrição breve do Projeto 3.',
     },
@@ -161,6 +161,25 @@ const styles = {
     textAlign: 'center',
     padding: '1rem',
     color: '#AEB4B9',
+  },
+  grid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+    gap: '1.5rem',
+    marginTop: '1rem',
+  },
+  card: {
+    backgroundColor: '#2F3E4D',
+    padding: '1rem',
+    borderRadius: '8px',
+    textAlign: 'center',
+  },
+  imagem: {
+    width: '100%',
+    height: '180px',
+    objectFit: 'cover',
+    borderRadius: '6px',
+    marginBottom: '1rem',
   },
 };
 
