@@ -28,9 +28,30 @@ import './index.css';
 
 
 // 🏠 Página Portfólio
+// 🏠 Página Portfólio principal (Escolha)
 function Home() {
+  return (
+    <div style={styles.page}>
+      <h2>Portfólio</h2>
+      <p>Escolha uma das categorias abaixo para visualizar:</p>
+      <div style={{ display: 'flex', gap: '1rem' }}>
+        <Link to="/portfolio/maquinas" style={styles.button}>
+          Máquinas e Equipamentos
+        </Link>
+        <Link to="/portfolio/layouts" style={styles.button}>
+          Layouts
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+
+// 📂 Máquinas e Equipamentos
+function Maquinas() {
   const projetos = [
     {
+   {
       imagem: '/assets/portfolio/maquinas/projeto1.png',
     },
     {
@@ -88,10 +109,62 @@ function Home() {
       imagem: '/assets/portfolio/maquinas/projeto19.jpg',
     },
     {
-      imagem: '/assets/portfolio/maquinas/projeto20.jpg',
+      imagem: '/assets/portfolio/maquinas/projeto20.png',
+    }
     },
-    
   ];
+
+  return (
+    <div style={styles.page}>
+      <h2>Máquinas e Equipamentos</h2>
+      <div style={styles.grid}>
+        {projetos.map((projeto, index) => (
+          <div key={index} style={styles.card}>
+            <a href={projeto.imagem} target="_blank" rel="noopener noreferrer">
+              <img src={projeto.imagem} alt={projeto.titulo} style={styles.imagem} />
+            </a>
+            <h3>{projeto.titulo}</h3>
+            <p>{projeto.descricao}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// 📐 Layouts
+function Layouts() {
+  const projetos = [
+    {
+      imagem: '/assets/portfolio/layout1.png',
+      titulo: 'Layout 1',
+      descricao: 'Descrição do Layout 1.',
+    },
+    {
+      imagem: '/assets/portfolio/layout2.png',
+      titulo: 'Layout 2',
+      descricao: 'Descrição do Layout 2.',
+    },
+  ];
+
+  return (
+    <div style={styles.page}>
+      <h2>Layouts</h2>
+      <div style={styles.grid}>
+        {projetos.map((projeto, index) => (
+          <div key={index} style={styles.card}>
+            <a href={projeto.imagem} target="_blank" rel="noopener noreferrer">
+              <img src={projeto.imagem} alt={projeto.titulo} style={styles.imagem} />
+            </a>
+            <h3>{projeto.titulo}</h3>
+            <p>{projeto.descricao}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 
   return (
     <div style={styles.page}>
