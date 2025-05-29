@@ -66,6 +66,7 @@ function Maquinas() {
     { imagem: '/assets/portfolio/maquinas/projeto18.png'},
     { imagem: '/assets/portfolio/maquinas/projeto19.jpg'},
     { imagem: '/assets/portfolio/maquinas/projeto20.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto21.png'},
   ];
 
   return (
@@ -117,6 +118,34 @@ function Layouts() {
         </p>
       </div>
       {/* 🔺 Fim do texto */}
+      <div style={styles.grid}>
+        {projetos.map((projeto, index) => (
+          <div key={index} style={styles.card}>
+            <a href={projeto.imagem} target="_blank" rel="noopener noreferrer">
+              <img src={projeto.imagem} alt={projeto.titulo} style={styles.imagem} />
+            </a>
+            <h3>{projeto.titulo}</h3>
+            <p>{projeto.descricao}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// 📂 Máquinas e Equipamentos
+function Estruturas() {
+  const projetos = [
+    { imagem: '/assets/portfolio/estruturas/estrutura1.png' },
+    { imagem: '/assets/portfolio/estruturas/estrutura2.png' },
+    { imagem: '/assets/portfolio/estruturas/estrutura3.png' },
+    { imagem: '/assets/portfolio/estruturas/estrutura4.png' },
+    
+  ];
+
+  return (
+    <div style={styles.page}>
+      <h2>Estruturas Metálicas</h2>
       <div style={styles.grid}>
         {projetos.map((projeto, index) => (
           <div key={index} style={styles.card}>
