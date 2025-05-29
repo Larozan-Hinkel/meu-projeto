@@ -22,19 +22,34 @@ function Navbar() {
 function Home() {
   const projetos = [
     {
-      imagem: '/assets/portfolio/projeto1.png',
+      imagem: '/assets/portfolio/maquinas/projeto1.png',
       titulo: 'Projeto 1',
       descricao: 'Descrição breve do Projeto 1.',
     },
     {
-      imagem: '/assets/portfolio/projeto2.png',
+      imagem: '/assets/portfolio/maquinas/projeto2.png',
       titulo: 'Projeto 2',
       descricao: 'Descrição breve do Projeto 2.',
     },
     {
-      imagem: '/assets/portfolio/projeto3.png',
+      imagem: '/assets/portfolio/maquinas/projeto3.png',
       titulo: 'Projeto 3',
       descricao: 'Descrição breve do Projeto 3.',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto4.png',
+      titulo: 'Projeto 4',
+      descricao: 'Descrição breve do Projeto 4.',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto5.png',
+      titulo: 'Projeto 5',
+      descricao: 'Descrição breve do Projeto 5.',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto6.png',
+      titulo: 'Projeto 6',
+      descricao: 'Descrição breve do Projeto 6.',
     },
   ];
 
@@ -175,7 +190,7 @@ const styles = {
     textAlign: 'center',
   },
   imagem: {
-    width: '100%',
+    width: '90%',
     height: '300px',
     objectFit: 'cover',
     borderRadius: '6px',
