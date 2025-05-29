@@ -114,6 +114,7 @@ function Layouts() {
       <div style={styles.textoDescricao}>
         <p>
           Nesta seção encontra-se exemplos de layouts industriais desenvolvidos para otimização de espaços, melhoria de processos, aumento da produtividade e asoectos de ergonomia e segurança. Cada projeto foi personalizado de acordo com a necessidade do cliente, considerando aspectos operacionais, logísticos, ergonômicos e de segurança.
+        </p>
       </div>
       {/* 🔺 Fim do texto */}
       <div style={styles.grid}>
