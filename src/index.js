@@ -67,26 +67,32 @@ function Home() {
       imagem: '/assets/portfolio/maquinas/projeto15.png',
     },
     {
-      imagem: '/assets/portfolio/maquinas/projeto16.png',
+      imagem: '/assets/portfolio/maquinas/projeto16.jpg',
     },
     {
-      imagem: '/assets/portfolio/maquinas/projeto17.png',
+      imagem: '/assets/portfolio/maquinas/projeto17.jpg',
     },
     {
       imagem: '/assets/portfolio/maquinas/projeto18.png',
     },
     {
-      imagem: '/assets/portfolio/maquinas/projeto19.png',
+      imagem: '/assets/portfolio/maquinas/projeto19.jpg',
     },
     {
-      imagem: '/assets/portfolio/maquinas/projeto20.png',
+      imagem: '/assets/portfolio/maquinas/projeto20.jpg',
     },
     
   ];
 
   return (
     <div style={styles.page}>
-      <h2>Portfólio</h2>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+  <h2 style={{ margin: 0 }}>Portfólio</h2>
+  <p style={{ margin: 0, color: '#AEB4B9' }}>
+    Veja alguns dos projetos desenvolvidos para indústrias e empresas.
+  </p>
+</div>
+
       <div style={styles.grid}>
   {projetos.map((projeto, index) => (
     <div key={index} style={styles.card}>
