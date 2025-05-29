@@ -141,7 +141,7 @@ function Estruturas() {
   const projetos = [
     { imagem: '/assets/portfolio/estruturas/estrutura1.png' },
     { imagem: '/assets/portfolio/estruturas/estrutura2.png' },
-    { imagem: '/assets/portfolio/estruturas/estrutura3.png' },
+    { imagem: '/assets/portfolio/estruturas/estrutura3.jpg' },
     { imagem: '/assets/portfolio/estruturas/estrutura4.png' },
     
   ];
