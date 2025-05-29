@@ -127,13 +127,58 @@ function Layouts() {
 
 // ℹ️ Sobre
 function Sobre() {
+  const certificados = [
+    {
+      imagem: '/assets/certificados/certificado1.png',
+      titulo: 'Engenharia Mecânica',
+      descricao: 'Diploma de conclusão do curso de Engenharia Mecânica.',
+    },
+    {
+      imagem: '/assets/certificados/certificado2.png',
+      titulo: 'Engenharia de Segurança do Trabalho',
+      descricao: 'Diploma de conclusão do curso de Engenharia de Segurança do Trabalho.',
+    },
+    {
+      imagem: '/assets/certificados/certificado3.png',
+      titulo: 'NR12',
+      descricao: 'Capacitação em Análise de Riscos e Adequação de Máquinas conforme NR12.',
+    },
+    {
+      imagem: '/assets/certificados/certificado4.png',
+      titulo: 'AutoCAD e SolidWorks',
+      descricao: 'Certificado de proficiência em ferramentas de desenho técnico e modelagem 3D.',
+    },
+    // ➕ Adicione mais certificados conforme desejar
+  ];
+
   return (
     <div style={styles.page}>
       <h2>Sobre</h2>
-      <p>Engenheiro Mecatrônico e de Segurança do Trabalho, atendendo Joinville/SC e região.</p>
+      <p>
+        Engenheiro Mecatrônico e de Segurança do Trabalho, atendendo Joinville/SC e região. 
+        Experiência em desenvolvimento de máquinas, projetos industriais, e soluções em segurança no trabalho.
+      </p>
+
+      <h3 style={{ marginTop: '2rem' }}>Diplomas e Certificados</h3>
+      <div style={styles.grid}>
+        {certificados.map((cert, index) => (
+          <div key={index} style={styles.card}>
+            <a href={cert.imagem} target="_blank" rel="noopener noreferrer">
+              <img
+                src={cert.imagem}
+                alt={cert.titulo}
+                style={styles.imagem}
+              />
+            </a>
+            <h4>{cert.titulo}</h4>
+            <p>{cert.descricao}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
+
 
 // 🔧 Serviços
 function Servicos() {
