@@ -110,12 +110,12 @@ function Layouts() {
   return (
     <div style={styles.page}>
       <h2>Layouts</h2>
-      {/* 🔻 Insira este bloco de texto aqui */}
-      <p style={{ maxWidth: '800px', marginBottom: '2rem' }}>
-        Nesta seção encontra-se exemplos de layouts industriais desenvolvidos para otimização de espaços, melhoria de processos, aumento da produtividade e asoectos de ergonomia e segurança. 
-        Cada projeto foi personalizado de acordo com a necessidade do cliente, considerando aspectos operacionais, logísticos, ergonômicos e de segurança.
-      </p>
-      {/* 🔺 Fim do bloco de texto */}
+      {/* 🔻 Bloco de texto descritivo */}
+      <div style={styles.textoDescricao}>
+        <p>
+          Nesta seção encontra-se exemplos de layouts industriais desenvolvidos para otimização de espaços, melhoria de processos, aumento da produtividade e asoectos de ergonomia e segurança. Cada projeto foi personalizado de acordo com a necessidade do cliente, considerando aspectos operacionais, logísticos, ergonômicos e de segurança.
+      </div>
+      {/* 🔺 Fim do texto */}
       <div style={styles.grid}>
         {projetos.map((projeto, index) => (
           <div key={index} style={styles.card}>
