@@ -4,7 +4,7 @@ import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './index.css';
 
 // 🔗 Menu de navegação
-  function Navbar() {
+function Navbar() {
   return (
     <nav style={styles.nav}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -25,10 +25,7 @@ import './index.css';
   );
 }
 
-
-
 // 🏠 Página Portfólio
-// 🏠 Página Portfólio principal (Escolha)
 function Home() {
   return (
     <div style={styles.page}>
@@ -46,72 +43,29 @@ function Home() {
   );
 }
 
-
 // 📂 Máquinas e Equipamentos
 function Maquinas() {
   const projetos = [
-    {
-   {
-      imagem: '/assets/portfolio/maquinas/projeto1.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto2.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto3.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto4.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto5.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto6.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto7.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto8.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto9.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto10.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto11.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto12.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto13.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto14.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto15.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto16.jpg',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto17.jpg',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto18.png',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto19.jpg',
-    },
-    {
-      imagem: '/assets/portfolio/maquinas/projeto20.png',
-    }
-    },
+    { imagem: '/assets/portfolio/maquinas/projeto1.png', titulo: 'Projeto 1', descricao: 'Descrição do Projeto 1' },
+    { imagem: '/assets/portfolio/maquinas/projeto2.png', titulo: 'Projeto 2', descricao: 'Descrição do Projeto 2' },
+    { imagem: '/assets/portfolio/maquinas/projeto3.png', titulo: 'Projeto 3', descricao: 'Descrição do Projeto 3' },
+    { imagem: '/assets/portfolio/maquinas/projeto4.png', titulo: 'Projeto 4', descricao: 'Descrição do Projeto 4' },
+    { imagem: '/assets/portfolio/maquinas/projeto5.png', titulo: 'Projeto 5', descricao: 'Descrição do Projeto 5' },
+    { imagem: '/assets/portfolio/maquinas/projeto6.png', titulo: 'Projeto 6', descricao: 'Descrição do Projeto 6' },
+    { imagem: '/assets/portfolio/maquinas/projeto7.png', titulo: 'Projeto 7', descricao: 'Descrição do Projeto 7' },
+    { imagem: '/assets/portfolio/maquinas/projeto8.png', titulo: 'Projeto 8', descricao: 'Descrição do Projeto 8' },
+    { imagem: '/assets/portfolio/maquinas/projeto9.png', titulo: 'Projeto 9', descricao: 'Descrição do Projeto 9' },
+    { imagem: '/assets/portfolio/maquinas/projeto10.png', titulo: 'Projeto 10', descricao: 'Descrição do Projeto 10' },
+    { imagem: '/assets/portfolio/maquinas/projeto11.png', titulo: 'Projeto 11', descricao: 'Descrição do Projeto 11' },
+    { imagem: '/assets/portfolio/maquinas/projeto12.png', titulo: 'Projeto 12', descricao: 'Descrição do Projeto 12' },
+    { imagem: '/assets/portfolio/maquinas/projeto13.png', titulo: 'Projeto 13', descricao: 'Descrição do Projeto 13' },
+    { imagem: '/assets/portfolio/maquinas/projeto14.png', titulo: 'Projeto 14', descricao: 'Descrição do Projeto 14' },
+    { imagem: '/assets/portfolio/maquinas/projeto15.png', titulo: 'Projeto 15', descricao: 'Descrição do Projeto 15' },
+    { imagem: '/assets/portfolio/maquinas/projeto16.jpg', titulo: 'Projeto 16', descricao: 'Descrição do Projeto 16' },
+    { imagem: '/assets/portfolio/maquinas/projeto17.jpg', titulo: 'Projeto 17', descricao: 'Descrição do Projeto 17' },
+    { imagem: '/assets/portfolio/maquinas/projeto18.png', titulo: 'Projeto 18', descricao: 'Descrição do Projeto 18' },
+    { imagem: '/assets/portfolio/maquinas/projeto19.jpg', titulo: 'Projeto 19', descricao: 'Descrição do Projeto 19' },
+    { imagem: '/assets/portfolio/maquinas/projeto20.png', titulo: 'Projeto 20', descricao: 'Descrição do Projeto 20' },
   ];
 
   return (
@@ -165,42 +119,12 @@ function Layouts() {
   );
 }
 
-
-  return (
-    <div style={styles.page}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-  <h2 style={{ margin: 0 }}>Portfólio</h2>
-  <p style={{ margin: 0, color: '#AEB4B9' }}>
-    Veja alguns dos projetos desenvolvidos para indústrias e empresas.
-  </p>
-</div>
-
-      <div style={styles.grid}>
-  {projetos.map((projeto, index) => (
-    <div key={index} style={styles.card}>
-      <a href={projeto.imagem} target="_blank" rel="noopener noreferrer">
-        <img
-          src={projeto.imagem}
-          alt={projeto.titulo}
-          style={styles.imagem}
-        />
-      </a>
-      <h3>{projeto.titulo}</h3>
-      <p>{projeto.descricao}</p>
-    </div>
-  ))}
-</div>
-
-    </div>
-  );
-}
-
 // ℹ️ Sobre
 function Sobre() {
   return (
     <div style={styles.page}>
       <h2>Sobre</h2>
-      <p>Engenheiro Mecatrônico e Engenheiro de segurança do trabalho. Atendendo Joinville/SC e região.</p>
+      <p>Engenheiro Mecânico e de Segurança do Trabalho, atendendo Joinville/SC e região.</p>
     </div>
   );
 }
@@ -227,7 +151,7 @@ function Contato() {
     <div style={styles.page}>
       <h2>Contato</h2>
       <p>Email: eng-laro@outlook.com</p>
-      <p>WhatsApp: (48)9 8850 7575</p>
+      <p>WhatsApp: (48) 9 8850-7575</p>
       <p>Localização: Joinville / SC</p>
     </div>
   );
@@ -249,7 +173,6 @@ function Footer() {
   );
 }
 
-
 // 🚀 App principal
 function App() {
   return (
@@ -259,6 +182,8 @@ function App() {
         <div style={styles.content}>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/portfolio/maquinas" element={<Maquinas />} />
+            <Route path="/portfolio/layouts" element={<Layouts />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/servicos" element={<Servicos />} />
             <Route path="/contato" element={<Contato />} />
@@ -329,14 +254,14 @@ const styles = {
     marginBottom: '1rem',
   },
   button: {
-  backgroundColor: '#3A4B5C',
-  color: '#FFFFFF',
-  padding: '0.8rem 1.5rem',
-  borderRadius: '8px',
-  textDecoration: 'none',
-  display: 'inline-block',
-  transition: 'background-color 0.3s',
-}
+    backgroundColor: '#3A4B5C',
+    color: '#FFFFFF',
+    padding: '0.8rem 1.5rem',
+    borderRadius: '8px',
+    textDecoration: 'none',
+    display: 'inline-block',
+    transition: 'background-color 0.3s',
+  },
 };
 
 // 🚩 Renderizando na raiz
