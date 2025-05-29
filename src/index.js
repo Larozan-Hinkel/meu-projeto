@@ -328,6 +328,15 @@ const styles = {
     borderRadius: '6px',
     marginBottom: '1rem',
   },
+  button: {
+  backgroundColor: '#3A4B5C',
+  color: '#FFFFFF',
+  padding: '0.8rem 1.5rem',
+  borderRadius: '8px',
+  textDecoration: 'none',
+  display: 'inline-block',
+  transition: 'background-color 0.3s',
+}
 };
 
 // 🚩 Renderizando na raiz

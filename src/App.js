@@ -40,11 +40,14 @@ function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<Portfolio />} />
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/servicos" element={<Servicos />} />
-            <Route path="/contato" element={<Contato />} />
-          </Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/portfolio/maquinas" element={<Maquinas />} />
+  <Route path="/portfolio/layouts" element={<Layouts />} />
+  <Route path="/sobre" element={<Sobre />} />
+  <Route path="/servicos" element={<Servicos />} />
+  <Route path="/contato" element={<Contato />} />
+</Routes>
+
         </main>
         <Footer />
       </div>
