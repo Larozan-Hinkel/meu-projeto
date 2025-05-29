@@ -9,11 +9,11 @@ import './index.css';
     <nav style={styles.nav}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <img
-          src="/assets/logo/logolarozan1.png"
+          src="/assets/logo/logolarozan2.png"
           alt="Logo Larozan"
-          style={{ height: '40px', marginRight: '0.5rem' }}
+          style={{ height: '60px', marginRight: '0.5rem' }}
         />
-        <h1 style={styles.logo}>Larozan</h1>
+        <h1 style={styles.logo}>Eng. Larozan Hinkel - CREA/SC 193853-8</h1>
       </div>
       <div>
         <Link style={styles.link} to="/">Portfólio</Link>
