@@ -38,9 +38,50 @@ function Home() {
     },
     {
       imagem: '/assets/portfolio/maquinas/projeto6.png',
+    },
+    {
       imagem: '/assets/portfolio/maquinas/projeto7.png',
+    },
+    {
       imagem: '/assets/portfolio/maquinas/projeto8.png',
     },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto9.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto10.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto11.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto12.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto13.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto14.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto15.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto16.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto17.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto18.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto19.png',
+    },
+    {
+      imagem: '/assets/portfolio/maquinas/projeto20.png',
+    },
+    
   ];
 
   return (
@@ -68,7 +109,7 @@ function Sobre() {
   return (
     <div style={styles.page}>
       <h2>Sobre</h2>
-      <p>Engenheiro projetista mecânico e elétrico. Engenheiro de segurança do trabalho. Atendendo Joinville/SC e região.</p>
+      <p>Engenheiro Mecatrônico e Engenheiro de segurança do trabalho. Atendendo Joinville/SC e região.</p>
     </div>
   );
 }
@@ -81,7 +122,8 @@ function Servicos() {
       <ul>
         <li>Projetos mecânicos industriais</li>
         <li>Projetos elétricos industriais</li>
-        <li>Laudos e ART</li>
+        <li>Apreciação de Risco NR12</li>
+        <li>Laudos NR12 e ART</li>
         <li>Consultoria em segurança do trabalho</li>
       </ul>
     </div>
@@ -94,6 +136,7 @@ function Contato() {
     <div style={styles.page}>
       <h2>Contato</h2>
       <p>Email: eng-laro@outlook.com</p>
+      <p>WhatsApp: (48)9 8850 7575</p>
       <p>Localização: Joinville / SC</p>
     </div>
   );
@@ -103,7 +146,7 @@ function Contato() {
 function Footer() {
   return (
     <footer style={styles.footer}>
-      <p>&copy; {new Date().getFullYear()} Larozan • Todos os direitos reservados.</p>
+      <p>&copy; {new Date().getFullYear()} Larozan Hinkel • Todos os direitos reservados.</p>
     </footer>
   );
 }
