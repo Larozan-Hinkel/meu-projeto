@@ -92,6 +92,19 @@ function Layouts() {
     {imagem: '/assets/portfolio/layouts/layout1.png'},
     {imagem: '/assets/portfolio/layouts/layout2.png'},
     {imagem: '/assets/portfolio/layouts/layout3.png'},
+    {imagem: '/assets/portfolio/layouts/layout4.png'},
+    {imagem: '/assets/portfolio/layouts/layout5.png'},
+    {imagem: '/assets/portfolio/layouts/layout6.png'},
+    {imagem: '/assets/portfolio/layouts/layout7.png'},
+    {imagem: '/assets/portfolio/layouts/layout8.png'},
+    {imagem: '/assets/portfolio/layouts/layout9.png'},
+    {imagem: '/assets/portfolio/layouts/layout10.png'},
+    {imagem: '/assets/portfolio/layouts/layout11.png'},
+    {imagem: '/assets/portfolio/layouts/layout12.png'},
+    {imagem: '/assets/portfolio/layouts/layout13.png'},
+    {imagem: '/assets/portfolio/layouts/layout14.png'},
+    {imagem: '/assets/portfolio/layouts/layout15.png'},
+    {imagem: '/assets/portfolio/layouts/layout16.png'},    
   ];
 
   return (
@@ -117,7 +130,7 @@ function Sobre() {
   return (
     <div style={styles.page}>
       <h2>Sobre</h2>
-      <p>Engenheiro Mecânico e de Segurança do Trabalho, atendendo Joinville/SC e região.</p>
+      <p>Engenheiro Mecatrônico e de Segurança do Trabalho, atendendo Joinville/SC e região.</p>
     </div>
   );
 }
@@ -128,8 +141,8 @@ function Servicos() {
     <div style={styles.page}>
       <h2>Serviços</h2>
       <ul>
-        <li>Projetos mecânicos industriais</li>
-        <li>Projetos elétricos industriais</li>
+        <li>Projetos Mecânicos Industriais</li>
+        <li>Projetos Elétricos Industriais</li>
         <li>Apreciação de Risco NR12</li>
         <li>Laudos NR12 e ART</li>
         <li>Consultoria em segurança do trabalho</li>
@@ -160,7 +173,7 @@ function Footer() {
           alt="Logo Larozan"
           style={{ height: '30px' }}
         />
-        <p>&copy; {new Date().getFullYear()} Larozan • Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Eng. Larozan Hinkel • Todos os direitos reservados.</p>
       </div>
     </footer>
   );
