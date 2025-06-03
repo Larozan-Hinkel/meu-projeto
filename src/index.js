@@ -31,6 +31,7 @@ function Home() {
     <div style={styles.page}>
       <h2>Portfólio</h2>
       <p>Escolha uma das categorias abaixo para visualizar:</p>
+      <p>Obs.: Todos os projetos e layouts apresentados tiveram sua divulgação autorizada para fins de apresentação de alguns dos trabalhos realizados pelo autor.</p>
       <div style={{ display: 'flex', gap: '1rem' }}>
         <Link to="/portfolio/maquinas" style={styles.button}>
           Máquinas e Equipamentos
@@ -195,7 +196,7 @@ function Sobre() {
       <h2>Sobre</h2>
       <p>
         Engenheiro Mecatrônico e de Segurança do Trabalho, atendendo Joinville/SC e região. 
-        Experiência em desenvolvimento de máquinas, projetos industriais, e soluções em segurança no trabalho.
+        Experiência em desenvolvimento de máquinas, projetos industriais e soluções em segurança no trabalho.
       </p>
 
       <h3 style={{ marginTop: '2rem' }}>Diplomas e Certificados</h3>
@@ -225,11 +226,17 @@ function Servicos() {
     <div style={styles.page}>
       <h2>Serviços</h2>
       <ul>
-        <li>Projetos Mecânicos Industriais</li>
+        <li>Projetos Mecânicos Industriais</li> 
+            <li>Projeto completo e todo detalhamento para compras e fabricação</li>
+            <li>Cálculos e Dimensionamentos</li>
+            <li>Dimensionamento de motor elétrico de acordo com a aplicação</li>
         <li>Projetos Elétricos Industriais</li>
+            <li>Projeto completo e todo detalhamento para compras e fabricação</li>
+            <li>Cálculos e Dimensionamentos de todos os componentes elétricos</li>
+            <li>Programação e Parametrização de Inversores / Softstarters</li>
         <li>Apreciação de Risco NR12</li>
-        <li>Laudos NR12 e ART</li>
-        <li>Consultoria em segurança do trabalho</li>
+        <li>Laudos de conformidade NR12 e ART</li>
+        <li>Consultoria em segurança do trabalho para máquinas e equipamentos</li>
       </ul>
     </div>
   );
@@ -240,7 +247,7 @@ function Contato() {
   return (
     <div style={styles.page}>
       <h2>Contato</h2>
-      <p>Email: eng-laro@outlook.com</p>
+      <p>Email: eng.laro@outlook.com</p>
       <p>WhatsApp: (48) 9 8850-7575</p>
       <p>Localização: Joinville / SC</p>
     </div>
