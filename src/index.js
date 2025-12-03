@@ -204,7 +204,7 @@ function Sobre() {
     <div style={styles.page}>
       <h2>Sobre</h2>
       <p>
-        Engenheiro Mecatrônico e de Segurança do Trabalho, atendendo Joinville/SC e região. 
+        Engenheiro Mecatrônico e de Segurança do Trabalho, atendendo Joinville/SC - Florianópolis/SC e região. 
         Experiência em desenvolvimento de máquinas, projetos industriais e soluções em segurança no trabalho.
       </p>
 
@@ -242,7 +242,6 @@ function Servicos() {
         <li>Projetos Elétricos Industriais</li>
             <li>Projeto completo e todo detalhamento para compras e fabricação</li>
             <li>Cálculos e Dimensionamentos de todos os componentes elétricos</li>
-            <li>Programação e Parametrização de Inversores / Softstarters</li>
         <li>Apreciação de Risco NR12</li>
         <li>Laudos de conformidade NR12 e ART</li>
         <li>Consultoria em segurança do trabalho para máquinas e equipamentos</li>
@@ -258,7 +257,7 @@ function Contato() {
       <h2>Contato</h2>
       <p>Email: eng.laro@outlook.com</p>
       <p>WhatsApp: (48) 9 8850-7575</p>
-      <p>Localização: Joinville / SC</p>
+      <p>Localização: Joinville / SC - Florianópolis / SC</p>
     </div>
   );
 }
