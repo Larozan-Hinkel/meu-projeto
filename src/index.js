@@ -71,6 +71,15 @@ function Maquinas() {
     { imagem: '/assets/portfolio/maquinas/projeto19.jpg'},
     { imagem: '/assets/portfolio/maquinas/projeto20.png'},
     { imagem: '/assets/portfolio/maquinas/projeto21.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto22.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto23.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto24.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto25.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto26.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto27.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto28.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto29.png'},
+    { imagem: '/assets/portfolio/maquinas/projeto30.png'},
   ];
 
   return (
